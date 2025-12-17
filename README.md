@@ -37,7 +37,7 @@ Simulate the design with different clk and rstn combinations to generate the tim
 
 **PROGRAM**
 ```
-module exp11(out,clk,rstn);
+module exp6(out,clk,rstn);
 input clk,rstn;
 output reg [3:0]out;
 always @ (posedge clk)
