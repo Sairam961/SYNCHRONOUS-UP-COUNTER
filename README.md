@@ -56,8 +56,18 @@ RegisterNumber:25000694
 
 **RTL LOGIC UP COUNTER**
 
+ <img width="737" height="487" alt="image" src="https://github.com/user-attachments/assets/4f3853cc-2459-47d8-b2da-4595c34e620c" />
+
 **TIMING DIAGRAM FOR IP COUNTER**
+
+ <img width="863" height="529" alt="image" src="https://github.com/user-attachments/assets/06aa6c17-0a97-4de6-a771-5920c0075ced" />
+
 
 **TRUTH TABLE**
 
+ <img width="544" height="275" alt="image" src="https://github.com/user-attachments/assets/863fb615-93cf-4f03-bb7b-c29217b30ea7" />
+
+
 **RESULTS**
+
+Thus the Synchronous 3 bit Up counter is implemeted and verified.
