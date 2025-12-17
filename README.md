@@ -60,7 +60,8 @@ RegisterNumber:25000694
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
- <img width="863" height="529" alt="image" src="https://github.com/user-attachments/assets/06aa6c17-0a97-4de6-a771-5920c0075ced" />
+ <img width="862" height="518" alt="image" src="https://github.com/user-attachments/assets/16dd33ca-046b-40f4-b228-791e548c1db6" />
+
 
 
 **TRUTH TABLE**
