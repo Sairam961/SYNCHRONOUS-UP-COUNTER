@@ -58,22 +58,52 @@ endmodule
 
 Down counter
 ```
+module syncdown(out, clk, rstn);
+input clk, rstn;
+output reg [3:0] out;
+
+always @(posedge clk)
+begin
+    if (!rstn)
+        out <= 4'b1111;   // reset to max value for down counter
+    else
+        out <= out - 1;   // decrement
+end
+
+endmodule
+```
 
 **RTL LOGIC UP COUNTER**
 
  <img width="737" height="487" alt="image" src="https://github.com/user-attachments/assets/4f3853cc-2459-47d8-b2da-4595c34e620c" />
 
-**TIMING DIAGRAM FOR IP COUNTER**
+**RTL LOGIC DOWN COUNTER**
+
+ <img width="739" height="488" alt="image" src="https://github.com/user-attachments/assets/13c7da86-7f9f-49f9-ab90-cf6a176799a0" />
+
+
+**TIMING DIAGRAM FOR UP COUNTER**
 
  <img width="862" height="518" alt="image" src="https://github.com/user-attachments/assets/16dd33ca-046b-40f4-b228-791e548c1db6" />
+
+**TIMING DIAGRAM FOR DOWN COUNTER**
+
+ <img width="1280" height="761" alt="image" src="https://github.com/user-attachments/assets/ccad7317-c760-451c-899d-18f1206322b7" />
+
 
 
 
 **TRUTH TABLE**
 
+Up counter
+
  <img width="544" height="275" alt="image" src="https://github.com/user-attachments/assets/863fb615-93cf-4f03-bb7b-c29217b30ea7" />
+
+Down counter
+
+ <img width="400" height="442" alt="image" src="https://github.com/user-attachments/assets/3bf99565-2620-43b3-98fe-3c019d0810de" />
 
 
 **RESULTS**
 
-Thus the Synchronous 3 bit Up counter is implemeted and verified.
+Thus the Synchronous 3 bit Up counter and Down counter is implemeted and verified.
