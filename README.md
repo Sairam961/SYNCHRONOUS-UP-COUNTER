@@ -37,6 +37,12 @@ Simulate the design with different clk and rstn combinations to generate the tim
 
 **PROGRAM**
 ```
+Developed by: R.Sairam
+RegisterNumber:25000694
+```
+
+Up counter
+```
 module exp6(out,clk,rstn);
 input clk,rstn;
 output reg [3:0]out;
@@ -49,9 +55,8 @@ begin
 end
 endmodule
 ```
-```
-Developed by: R.Sairam
-RegisterNumber:25000694
+
+Down counter
 ```
 
 **RTL LOGIC UP COUNTER**
